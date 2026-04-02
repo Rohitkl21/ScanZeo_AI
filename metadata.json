@@ -1,0 +1,9 @@
+{
+  "name": "ScanZeo AI",
+  "description": "A universal AI scanner for health, shopping, travel safety, and daily insights.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}
