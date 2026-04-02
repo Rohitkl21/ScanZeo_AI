@@ -31,6 +31,9 @@ export const authService = {
   async googleLogin() {
     return await supabase.auth.signInWithOAuth({
       provider: "google",
+      options: {
+        redirectTo: window.location.origin,
+      },
     });
   },
 
